@@ -49,5 +49,9 @@ export const CONTRIBUTORS: Contributor[] = [
   {
     name: 'Ibrahim Raza Beg',
     github: 'PHOX-9',
+  },
+  {
+    name: 'Vishva Modh',
+    github: 'ViMo018',
   }
 ];
