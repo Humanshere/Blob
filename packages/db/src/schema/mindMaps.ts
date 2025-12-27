@@ -6,7 +6,7 @@ export const mindMaps = pgTable("mind_maps", {
         topicId: uuid("topic_id")
             .notNull()
             .references(() => topics.id, { onDelete: "cascade" }),
-        title: json("title").notNull(),
+        json: json("json").notNull(),
         createdAt: timestamp("created_at").defaultNow().notNull(),
     },
     (table) => ({
