@@ -124,7 +124,7 @@ export const CONTRIBUTORS: Contributor[] = [
   },{
     name: 'Aaryan Degama',
     github: 'Aaryan-Degama'
-  }
+  },
   {
   name: "Dharshini D",
   github: 'Dharshin1',
@@ -132,6 +132,10 @@ export const CONTRIBUTORS: Contributor[] = [
   {
   name: "Sourish Awasthi",
   github: 'Sourish-Awasthi',
-  }
+  },
+  {
+  name: 'Khushi Shorey',
+  github: 'khuhshishorey'
+  },
 
 ];
